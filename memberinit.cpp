@@ -2,4 +2,9 @@
 #include <vector>
 using namespace std;
 
-class mahasiswa{};
+class mahasiswa{
+private:
+    cons int id;
+    string nama;
+    float nilai;
+};
