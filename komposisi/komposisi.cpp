@@ -9,4 +9,7 @@ int main(){
     manusia* varManusia = new manusia("jono");
     delete varManusia;
     return 0;
-}
+};
+#endif
+
+
