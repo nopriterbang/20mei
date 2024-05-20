@@ -1,2 +1,6 @@
-#ifdef JANTUNG_H
+#ifndef JANTUNG_H
 #define JANTUNG_H
+
+class manusia {
+    
+}
