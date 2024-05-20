@@ -4,13 +4,19 @@ using namespace std;
 
 class mahasiswa{
 private:
-    cons int id;
+    const int id;
     string nama;
     float nilai;
 public:
-    mahasiswa(int pID, string pNama, float pNilai) :id(pId),
+    mahasiswa(int pId, string pNama, float pNilai) :id(pId),
     nama(pNama), nilai(pNilai)
     {// Member initialiazation List
-
+        //Definisi
     }
+
+    ~mahasiswa(){
+        cout << "Id     = " << id << endl;
+        cout << "Nama   = " << nama << endl;
+        cout << "Nilai  = " << nilai << endl;
+        }
 };
